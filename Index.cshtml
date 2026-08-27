@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Student Info";
+}
+
+<h1>Student Deployment Info</h1>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <td>@ViewBag.StudentName</td>
+    </tr>
+    <tr>
+        <th>Student ID</th>
+        <td>@ViewBag.StudentId</td>
+    </tr>
+    <tr>
+        <th>Unit</th>
+        <td>@ViewBag.Unit</td>
+    </tr>
+    <tr>
+        <th>Server Time (on load)</th>
+        <td>@ViewBag.ServerTime</td>
+    </tr>
+</table>
